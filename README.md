@@ -1,32 +1,70 @@
-# Firebase-User-Authentication
-This project demonstrates simple and secure user authentication using Firebase Authentication with the Email and Password method. It allows users to sign up, log in, reset their password, and log out using their email credentials.
+# 🔐 Firebase-User-Authentication
 
-Features
+This project demonstrates simple and secure user authentication using **Firebase Authentication** with the **Email and Password** method.
 
-  User Sign Up with Email and Password
-  User Login with Email and Password
-  Password Reset via Email
-  User Logout
+It allows users to:
 
-Authentication State Management (automatically keep users logged in)
+- ✅ Sign Up
+- ✅ Log In
+- ✅ Log Out using their email credentials
 
-  Error Handling (e.g., email already in use, wrong password, invalid email)
-  Technologies Used
-  Firebase Authentication (Email/Password Sign-in)
-  Firebase SDK
-  Android
+---
 
-Setup Instructions
+## ✨ Features
 
-  Go to Firebase Console.
-  Create a new Firebase project or use an existing one.
-  Navigate to Authentication → Sign-in method and enable Email/Password.
-  Add Firebase to your project and initialize it.
-  Use Firebase Authentication APIs to handle user registration, login, password reset, and logout.
+- 🔐 **User Sign Up with Email and Password**
+- 🔓 **User Login with Email and Password**
+- 🚪 **User Logout**
+- 🔄 **Authentication State Management**  
+  (automatically keeps users logged in)
+- ⚠️ **Error Handling**  
+  (e.g., email already in use, wrong password, invalid email)
 
-Requirements
+---
 
-  A Firebase account
-  Basic setup of Firebase SDK in your project
-  Android app configuration
+## 🛠️ Technologies Used
+
+- 📡 Firebase Authentication (Email/Password Sign-in)
+- 🔧 Firebase SDK
+- 🤖 Android (Java)
+
+---
+
+## ⚙️ Setup Instructions
+
+1. Go to [Firebase Console](https://console.firebase.google.com/).
+2. Create a new Firebase project or use an existing one.
+3. Navigate to `Authentication → Sign-in method`, and enable **Email/Password**.
+4. Add Firebase to your Android project (download the `google-services.json`).
+5. Initialize Firebase in your app.
+6. Use Firebase Authentication APIs to handle:
+   - User Registration
+   - Login
+   - Password Reset
+   - Logout
+
+---
+
+## ✅ Requirements
+
+- A Firebase account
+- Firebase SDK integrated in your Android project
+- Android Studio setup with proper app configuration
+
+---
+
+
+## ⭐ Support
+
+If you found this project helpful:
+
+- 🌟 Star this repository
+- 🍴 Fork it to build your own
+- 🔁 Share it with others
+- 💬 Open issues or submit pull requests
+
+---
+
+**Thank you for checking out this project! Happy Coding! 🚀**
+
 
